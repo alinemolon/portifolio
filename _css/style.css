@@ -1,0 +1,288 @@
+@charset "UTF-8";
+
+*{
+	font-family: 'sourceRegular';
+}
+
+@font-face{
+	 font-family: sourceBold;
+     src: url('../_font/SourceSansPro-Bold.ttf');
+}
+
+@font-face{
+	 font-family: sourceRegular;
+     src: url('../_font/SourceSansPro-Regular.ttf');
+}
+
+@font-face{
+	 font-family: sourceLight;
+     src: url('../_font/SourceSansPro-Light.ttf');
+}
+
+img{
+	max-width: 100%;
+}
+
+.container{
+	width: 90% !important;
+    max-width: 80rem;
+}
+
+.direita{
+	float: right;
+}
+
+.esquerda{
+	float: left;
+}
+
+.mg-top-20{
+	margin-top: 20px;
+}
+
+.mg-top-40{
+	margin-top: 40px;
+}
+
+.mg-top-60{
+	margin-top: 60px;
+}
+
+.mg-top-80{
+	margin-top: 80px;
+}
+
+.mg-top-90{
+	margin-top: 90px;
+}
+
+.pd-20{
+	padding: 20px;
+}
+
+#txt-pagina-web{
+    display: inline;
+    margin-bottom: 20px;
+}
+
+#txt-com{
+	font-family: 'sourceRegular';
+	display: inline;
+}
+
+#p-topo{
+	font-family: 'sourceRegular';
+	font-size: 24px;
+	color: #dd426c;
+}
+
+#faixa-rosa{
+	background-color: #dd426c;
+	width: 100%;
+	height: 92px;
+	position: absolute;
+	bottom: 0;
+	z-index: -1;
+}
+
+a{
+	text-decoration: none;
+	color: #dd426c;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+a.a-btn-up{
+	padding:0;
+	margin: 0;
+}
+
+a:hover{
+	background-color: #dd426c;
+	color: #fff;
+	transition: 0.5s;
+}
+
+h1{
+	font-family: 'sourceBold';
+    font-size: 46px;
+    color: #dd426c;
+}
+
+h2{
+	font-family: 'sourceRegular';
+	font-size: 40px;
+	color: #dd426c;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+h3{
+	font-family: 'sourceBold';
+    font-size: 30px;
+    color: #dd426c;
+}
+
+h4{
+	font-family: 'sourceBold';
+	font-size: 26px;
+	color: #34291b;
+}
+
+p{
+	font-family: 'sourceRegular';
+	font-size: 20px;
+	color: #34291b;
+}
+
+p.slogan{
+	font-family: 'sourceLight';
+	font-size: 34px;
+}
+
+p.p-contato{
+	font-family: 'sourceBold';
+	font-size: 34px;
+	margin-top: 20px;
+}
+
+.logo{
+	width: 300px;
+}
+
+ul{
+	list-style-type: none;
+	font-family: 'sourceRegular';
+}
+
+ul>li{
+    display: inline-block;
+    font-size: 20px;
+    color: #dd426c;
+    padding: 10px;
+    font-weight: bold;
+}
+
+header.menu-topo{
+	background-image: url('../_img/fundo-topo-1920x668.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	max-width: 100%;
+	position: relative;
+}
+
+#pcs-topo{
+	width: 580px;
+	margin-top: 90px;
+	margin-bottom: 20px;
+}
+
+.block{
+	display: inline-block;
+}
+
+.pd-top-30{
+	padding-top: 30px;
+}
+
+.pd-20{
+	padding: 20px;
+}
+
+#img-aline{
+	width: 265px;
+	padding: 60px;
+}
+
+#quemsou{
+	background-color: #f2f6f2;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: justify;
+}
+
+#skills{
+	background-image: url('../_img/fundo-skills-1920x583.png');
+	padding-top: 40px;
+	padding-bottom: 60px;
+}
+
+
+article.smartville > h3,
+article.smartville > p{
+	color: #8ccb35;
+	display: inline;
+}
+
+article.smartville > p{
+	font-size: 26px;
+}
+
+.psicologo{
+	background-color: #f2f6f2;
+}
+
+article.psicologo > div.container h3,
+article.psicologo > div.container p{
+	color: #507cbf;
+	display: inline;
+}
+
+article.psicologo > div.container p{
+	font-size: 26px;
+}
+
+#img-psicologo{
+	margin-bottom: 60px;
+}
+
+input{
+	width: 440px;
+	height: 30px;
+	border-radius: 2px;
+	border: 1px solid #dcdcdc;
+}
+
+textarea{
+	width: 440px;
+	height: 120px;
+	border-radius: 2px;
+	border: 1px solid #dcdcdc;
+}
+
+form>p{
+	margin-top: 20px;
+}
+
+button{
+	background-color: #91eb98;
+	border: none;
+	border-radius: 2px;
+	padding: 10px 40px; 
+	color: #fff;
+	font-family: 'sourceBold';
+	font-size: 18px;
+	float: right;
+	margin-right: 110px;
+	margin-top: 20px;
+}
+
+footer{
+	background-color: #dd426c;
+	max-width: 100%;
+	padding: 30px;
+	margin-top: 40px;
+	text-align: center;
+}
+
+footer>p{
+	font-size: 16px;
+	color: #000;
+}
+
+.btn-up{
+	position: fixed;
+	bottom: 5px;
+	right: 5px;
+	z-index: 1;
+}
